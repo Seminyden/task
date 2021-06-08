@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/lords.js"></script>
+    <script type="text/javascript" src="js/planets.js"></script>
+    <script type="text/javascript">
+
+        const SERVER_URL    = 'http://localhost:8080';
+
+        let currentPage     = 0;
+        let pageSize        = 10;
+
+        let currentSection  = -1;
+
+    </script>
+</head>
+<body>
+    <div id="page">
+        <header id="header"></header>
+        <nav id="navigation"></nav>
+        <div id="additional_actions"></div>
+        <div id="message">&nbsp;</div>
+        <div id="content-container">
+            <table id="content"></table>
+            <div id="pagination"><ul></ul></div>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+    <script>
+
+        let header              = $('#header');
+        let navigation          = $('#navigation');
+        let additional_actions  = $('#additional_actions');
+        let message             = $('#message');
+        let content             = $('#content');
+        let pagination          = $('#pagination ul');
+        let footer              = $('#footer');
+
+        showNavigation();
+        showStartPage();
+
+    </script>
+</body>
+</html>

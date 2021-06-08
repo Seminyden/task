@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+#page {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navigation li {
+    margin: 5px;
+    padding: 0;
+    display: inline-block;
+}
+
+#additional_actions ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#additional_actions li {
+    margin: 5px;
+    padding: 0;
+    display: inline-block;
+}
+
+#message {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.error {
+    color: rgb(255,70,70);
+}
+
+.success {
+    color: rgb(70,205,70);
+}
+
+#content-container {
+    margin: 10px 50px;
+}
+
+#content {
+    width: 100%;
+    border: solid 1px rgb(220,220,220);
+}
+
+#content th {
+    background: rgb(200,200,200);
+}
+
+#content tr:hover {
+    background: rgb(240,240,240);
+}
+
+#content input[type='number'] {
+    width: 80%;
+}
+
+.id {
+    width: 5%;
+    text-align: center;
+}
+
+.name {
+
+}
+
+.age {
+    width: 10%;
+    text-align: center;
+}
+
+.planets {
+    width: 25%;
+    text-align: center;
+}
+
+.planets ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.planets li {
+    margin: 0;
+    padding: 0;
+}
+
+.lord {
+    width: 25%;
+    text-align: center;
+}
+
+.actions {
+    width: 14%;
+    text-align: center;
+}
+
+.current_page {
+    cursor: default;
+    pointer-events: none;
+}
+
+#pagination {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#pagination ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#pagination li {
+    margin: 5px;
+    padding: 0;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 12, 178);
+}
+
+a:hover {
+    text-decoration: underline;
+}
