@@ -1,0 +1,2 @@
+DELETE FROM planets;
+DELETE FROM lords;
